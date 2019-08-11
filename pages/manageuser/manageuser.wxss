@@ -1,0 +1,13 @@
+/* pages/manageuser/manageuser.wxss */
+.ab{
+  text-align: center;
+  display: block;
+  margin-top: 75rpx;
+  margin-bottom: 125rpx;
+}
+.img{
+  width:250rpx;
+  height:250rpx;
+  margin-left:250rpx;
+
+}

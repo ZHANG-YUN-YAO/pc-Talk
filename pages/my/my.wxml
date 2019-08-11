@@ -1,0 +1,38 @@
+<!-- 管理员登录的个人中心 -->
+<view class='box'>
+<!-- <button bindtap='clickme'>
+  点击我
+</button>
+<view>{{msg}}</view>
+<map></map> -->
+
+
+<button class='login' wx:if="{{!userInfo}}" open-type='getUserInfo' bindgetuserinfo='getUserInfo'>登录</button>
+  <!-- 头部 -->
+  <view class='header' wx:else>
+    <view class='myInfo'>
+      <view class='headImg'>
+        <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class='mymessage'>
+        <text class='nickname'>{{userInfo.nickName}}</text>
+        <text class='sex'>{{sex}}</text>
+        <text class='addr'>{{userInfo.country}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- body -->
+  <view class='body'>
+    <view class='edit'>
+      <navigator url="/pages/manageuser/manageuser" >
+        <text>用户管理></text>     
+      </navigator>   
+    </view>
+    <view class='edit'>
+      <navigator url="/pages/manageinfo/manageinfo" >
+        <text>帖子管理></text> 
+      </navigator>       
+    </view>    
+  </view>
+
+</view>

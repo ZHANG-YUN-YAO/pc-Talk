@@ -1,0 +1,6 @@
+<!--pages/manageuser/manageuser.wxml-->
+
+<text class='ab'>manageuser用户管理页</text>
+  <view class="li">
+      <image class='img' src='../../utils/image/img_20181118234315430.png'></image>
+  </view>

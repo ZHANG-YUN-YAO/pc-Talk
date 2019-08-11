@@ -1,0 +1,15 @@
+<!--pages/infoadd/infoadd.wxml-->
+
+ <!-- <view class="container"> -->
+    <!-- <scroll-view class="intro-box" scroll-y="true">       -->
+      <!-- <view class="intro-live"> -->
+        <!-- 引入模板 -->
+        <!-- <import src="../../wxParse/wxParse.wxml"/> -->
+        <!-- 这里data中article为bindName -->
+        <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}"/> -->
+      <!-- </view> -->
+    <!-- </scroll-view>  -->
+
+    <view>信息发布页</view>
+
+  <!-- </view> -->

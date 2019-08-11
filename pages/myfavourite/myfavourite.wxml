@@ -1,0 +1,46 @@
+<!-- 查看所有帖子 -->
+<view class="container">
+  <!-- <view class='main'  wx:for="{{goodslist}}" wx:key="{{index}}">
+    <view class='section'>
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>{{item.gname}}</text>
+          <text class='des'>{{item.gdes}}</text>
+        </view>        
+      </view>
+    </view>
+  </view>
+</view>  -->
+
+  <view class='main'>
+    <!-- 每一节内容 -->
+    <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>33</text>
+          <text class='des'>没多少会计法肯定是麻烦了看到的，是的每次看到,的海景房的风景快递费金粉世家诶技术节假日放假积分，迪士尼积分抵。</text>          
+        </view>       
+      </view>
+    </view>
+    <!-- 每一节内容 -->
+    <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>22</text>
+          <text class='des'>就奇偶我， 你就看到你看vjkd。纳斯达克法律层面没带手机鸣锣开道</text>          
+        </view>       
+      </view>
+    </view>
+    <!-- 每一节内容 -->
+    <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>11</text>
+          <text class='des'>纳斯达克法律层面没带手机鸣锣开道，为将诶到、</text>          
+        </view>       
+      </view>
+    </view>
+  </view>
+</view>
+
+

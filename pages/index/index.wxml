@@ -1,0 +1,99 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 轮播图 -->
+  <swiper autoplay="true" interval="3000" circular="true" indicator-dots="true" indicator-active-color='#ff4891'>
+      <swiper-item>
+        <image src="https://j-image.missfresh.cn/img_20181008171641413.jpg?iopcmd=convert&dst=webp" />
+      </swiper-item>
+      <swiper-item>
+        <image src="https://j-image.missfresh.cn/img_20181023142740877.jpg?iopcmd=convert&dst=webp" />
+      </swiper-item>
+      <swiper-item>
+        <image src="https://j-image.missfresh.cn/img_20180823110926126.jpg?iopcmd=convert&dst=webp" />
+      </swiper-item>
+  </swiper>
+
+
+<!-- 一级栏目 -->
+  <view class='header'>
+  
+    <view class="li">
+      <image src='../../utils/image/img_20181118234116965.png'></image>
+      <text>求职招聘</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234315430.png'></image>
+      <text>房屋租售</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234340173.png'></image>
+      <text>拼顺风车</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234537451.png'></image>
+      <text>教育培训</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234837331.png'></image>
+      <text>上海论坛</text>
+    </view>    
+  </view>
+  <view class='header'>
+
+    <view class="li">
+      <image src='../../utils/image/img_20181118234116965.png'></image>
+      <text>餐饮酒店</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234315430.png'></image>
+      <text>广告专区</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234340173.png'></image>
+      <text>休闲娱乐</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234537451.png'></image>
+      <text>同城活动</text>
+    </view>
+    <view class="li">
+      <image src='../../utils/image/img_20181118234837331.png'></image>
+      <text>生活服务</text>
+    </view>
+  </view>
+
+  <!-- 推荐内容 -->
+  <view class='main'>
+    <!-- 每一节内容 -->
+    <navigator url='/pages/infodetail/infodetail'>
+      <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>李四 </text>
+          <text class='des'>没多少会计法肯定是麻烦了看到的，是的每次看到,的海景房的风景快递费金粉世家诶技术节假日放假积分，迪士尼积分抵。</text>          
+        </view>       
+      </view>
+    </view>
+    </navigator>
+    
+    
+    <!-- 每一节内容 -->
+    <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>张三</text>
+          <text class='des'>就奇偶我， 你就看到你看vjkd。纳斯达克法律层面没带手机鸣锣开道</text>          
+        </view>       
+      </view>
+    </view>
+    <!-- 每一节内容 -->
+    <view class='section'>      
+      <view class='textBox'>
+        <view class='textUp'>
+          <text class='name'>张三</text>
+          <text class='des'>纳斯达克法律层面没带手机鸣锣开道，为将诶到、马达加斯加</text>          
+        </view>       
+      </view>
+    </view>
+  </view>
+</view>

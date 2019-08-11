@@ -1,0 +1,6 @@
+<!--pages/manageinfo/manageinfo.wxml-->
+<text class='ab'>manageinfo信息管理页</text>
+<view class="li">
+      <image class='img' src='../../utils/image/img_20181118234116965.png'></image>
+</view>
+    

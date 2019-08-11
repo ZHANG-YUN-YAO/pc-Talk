@@ -1,0 +1,18 @@
+<!--pages/infodetail/infodetail.wxml-->
+<!-- <text>pages/infodetail/infodetail.wxml</text> -->
+<view class='container'>
+  <view class='main'>
+    <view class='section'>      
+      <view class='textBox'>  
+        <view class='section'>      
+          <view class='textBox'>
+            <view class='textUp'>
+              <text class='name'>李四 </text>
+              <text class='des'>没多少会计法肯定是麻烦了看到的，是的每次看到,的海景房的风景快递费金粉世家诶技术节假日放假积分，迪士尼积分抵。</text>        
+            </view>       
+          </view>
+        </view>
+      </view>  
+    </view>  
+  </view>
+</view>
